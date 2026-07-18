@@ -54,3 +54,60 @@
     </script>
 </body>
               </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Earning With Imran</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-crown gold-crown"></i>
+            <span>ONLINE EARNING WITH IMRAN</span>
+        </div>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+            <a href="#login" class="login-btn">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="fade-in">Start Your <span class="gold-text">Online Earning</span> Journey</h1>
+            <p class="slide-up">Learn Freelancing, YouTube, Affiliate Marketing, Blogging and much more.</p>
+            <div class="hero-buttons slide-up">
+                <a href="#courses" class="btn btn-primary">Get Started</a>
+                <a href="#services" class="btn btn-secondary">Explore Categories</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenu.classList.toggle('is-active');
+        });
+    </script>
+</body>
+</html>
